@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Change Warna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        #color_area {
+            height: 500px;
+            background-color: #434c55;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <div class="row mb-3">
+            <div class="col" id="color_area"></div>
+        </div>
+        <div class="row text-center">
+            <div class="col d-grid">
+                <button type="button" class="btn btn-danger" onclick="merah()">Merah </button>
+            </div>
+            <div class="col d-grid">
+                <button type="button" class="btn btn-primary" onclick="biru()">Biru </button>
+            </div>
+            <div class="col d-grid">
+                <button type="button" class="btn btn-success" onclick="hijau()">Hijau </button>
+            </div>
+            <div class="col d-grid">
+                <button type="button" class="btn btn-warning" onclick="kuning()">Kuning </button>
+            </div>
+            <div class="col d-grid">
+                <button type="button" class="btn" style="background-Color: pink" onclick="pink()">Pink </button>
+            </div>
+        </div>
+        <div class="alert alert-primary text-center mt-4" role="alert">
+            Ramadhani Nu Lativa | 25/557751/SV/26226 | Kelas B
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+
+        <script>
+            //Function mengubah warna menjadi merah
+            function merah() {
+                document.getElementById("color_area").style.
+                    backgroundColor = "red";
+            }
+
+            function biru() {
+                document.getElementById("color_area").style.
+                    backgroundColor = "blue";
+            }
+
+            function hijau() {
+                document.getElementById("color_area").style.
+                    backgroundColor = "green";
+            }
+
+            function kuning() {
+                document.getElementById("color_area").style.
+                    backgroundColor = "yellow";
+            }
+
+            function pink() {
+                document.getElementById("color_area").style.
+                    backgroundColor = "pink";
+            }
+
+            //function ubahwarna() {
+            // document.getElementById("color_area").style.
+            // backgroundColor = "ubahwarna";}
+
+        </script>
+</body>
+
+</html>
